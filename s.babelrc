@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    ["lodash"],
+    ["import", { "libraryName": "antd", "style": true }],
+  ],
+  "presets": [
+    "@babel/react",
+    "@babel/typescript",
+    ["@babel/env", {
+      "modules": false,
+      "targets": {
+        "browsers": [ ">1%" ]
+      }
+    }]
+  ]
+}
