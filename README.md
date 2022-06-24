@@ -1,4 +1,4 @@
-# SyncMyCookie
+# CookieSyncer
 
 CookieSyncer is a firefox extension to synchronize your cookies.
 
