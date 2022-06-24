@@ -10,7 +10,7 @@ You can specify to sync cookies for any website, configure rules for `Auto Merge
 
   ```bash
   git clone https://github.com/subsnet/CookieSyncer.git
-  cd sync-my-cookie
+  cd CookieSyncer
   yarn            # npm install
   yarn build      # npm run build
   ```
