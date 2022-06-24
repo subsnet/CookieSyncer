@@ -1,0 +1,41 @@
+.wrapper {
+  height: 100%;
+  padding: 0 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+
+  .input {
+    margin-bottom: 10px;
+  }
+
+  .filename {
+    margin-bottom: 0;
+  }
+
+  .collapse {
+    margin-bottom: 10px;
+  }
+
+  .panel {
+    border: 0;
+  }
+
+  .logo {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    margin-bottom: 10px;
+  }
+
+  .port {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    .button {
+      display: inline-block;
+      width: 48%;
+    }
+  }
+}

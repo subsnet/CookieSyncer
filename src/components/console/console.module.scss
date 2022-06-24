@@ -1,0 +1,75 @@
+@import '../../global.scss';
+
+.empty {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  height: 300px;
+  padding: 0 25px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+
+  .domain {
+    text-align: center;
+    color: #0098ff;
+    height: 75px;
+    line-height: 75px;
+    align-self: center;
+    width: 80%;
+  }
+
+  .icon {
+    font-size: 20pt;
+  }
+
+  .sliders {
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 0;
+    .one {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      .description {
+        font-size: 16pt;
+        flex-grow: 1;
+        margin-left: 10px;
+      }
+    }
+  }
+
+  .buttons {
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+}
+
+.secret {
+  position: relative;
+  .setting {
+    position: absolute;
+    left: -2.5px;
+    opacity: 0;
+  }
+
+  &:hover {
+    .setting {
+      opacity: 1;
+    }
+    .upload {
+      opacity: 0;
+    }
+  }
+}
