@@ -6,7 +6,7 @@
       "strict_min_version": "88.0"
     }
   },
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "A firefox extension to synchronize cookies.",
   "icons": {
     "16": "icon/icon16.png",
@@ -22,7 +22,9 @@
     "default_title": "CookieSyncer",
     "default_popup": "popup.html"
   },
-  "options_page": "options.html",
+  "options_ui": {
+    "page": "options.html"
+  },
   "background": {
     "scripts": [
       "background.js"
